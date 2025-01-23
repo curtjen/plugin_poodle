@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Popup</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Popup Template</h1>
+    <form id="sampleForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <table id="sampleTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically inserted -->
+        </tbody>
+    </table>
+    <script src="popup.js"></script>
+</body>
+</html>
